@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Option 1",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/518dsHEcMtL._AC_SX425_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Option 2",
+        "img": "https://ae01.alicdn.com/kf/Hd39b1885ce82403c86ceffde79ee35f7h/RGB-16-Color-Changing-YDD-LED-Lightsaber-with-Light-Changing-Sound-FOC-Lock-Up-Metal-Hilt.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Option 3",
+        "img": "https://sulphurcityfoundry.co.nz/wp-content/uploads/2019/10/saberforge-acolyte-STD-450x450.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Option 4",
+        "img": "https://cdn.shopify.com/s/files/1/0334/9023/9547/articles/lightsaber_hilts_everything_you_need_to_know_750x.png?v=1596484505"
+    },
+    {
+        "id": 5,
+        "name":"Option 5",
+        "img": "https://i.pinimg.com/originals/62/1c/6b/621c6b3723b6bb69560b4b78ea99b156.jpg"
+    },
+    {
+        "id": 6,
+        "name":"Option 6",
+        "img": "https://i.pinimg.com/originals/15/26/28/152628a309f5dd54ee06b3c1285d15d2.jpg"
+    }
+]
