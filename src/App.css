@@ -59,12 +59,6 @@
   font-weight: 400;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   overflow: scroll;
-  /* height: 75vh;
-  width: 800px;
-  position: relative;
-  top: 5vh;
-  right: 30px;
-  overflow: scroll; */
 }
 
 .images {
@@ -75,6 +69,10 @@
 
 .steal-button {
   margin: 10px;
+}
+
+.steal-button:hover {
+  color: cornflowerblue;
 }
 
 .name-button {
@@ -96,16 +94,32 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.grievous-button:hover {
+  color: cornflowerblue;
+}
+
 .color-input {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.color-input:hover {
+  color: cornflowerblue;
 }
 
 .give-back {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.give-back:hover {
+  color: cornflowerblue;
+}
+
 .edit-color {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edit-color:hover {
+  color: cornflowerblue;
 }
 
 .added-img {
@@ -113,3 +127,4 @@
   height: 250px;
   margin-top: 10px;
 }
+

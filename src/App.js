@@ -1,6 +1,8 @@
+/* I had to reference the pokemon example quite a bit. I definitely need way more practice */
+// import lightsaber from './lightsaber.json';
+
 import React, { Component } from 'react';
 import axios from 'axios';
-import lightsaber from './lightsaber.json';
 import Header from './Components/Header';
 import Lightsabers from './Components/Lightsabers';
 import Collection from './Components/Collection';
@@ -52,6 +54,7 @@ class App extends Component {
 
         <Header />
         <div className='lightsabers-with-collection'>
+
           <Lightsabers 
             stealFn={this.stealLightsabers}/>
         

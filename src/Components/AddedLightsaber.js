@@ -9,6 +9,10 @@ class AddedLightsaber extends Component {
         };
     }
 
+    handleAlert(){
+        alert('General Grievous received your gift...')
+    }
+
     handleInput = (val) => {
         this.setState({colorInput: val})
     }
@@ -36,7 +40,7 @@ class AddedLightsaber extends Component {
                     <div className='color-button-input'>
                         <input 
                             value={this.state.colorInput}
-                            onChange={e => this.handleInput(e.target.value)}/>
+                            onChange={(e) => this.handleInput(e.target.value)}/>
                         <button className='color-input' onClick={() => this.handleEdit(this.props.lightsaber.id)}>Submit</button>
                     </div>
                 )
@@ -49,7 +53,7 @@ class AddedLightsaber extends Component {
                     <button className='give-back' onClick={() => this.props.removeFn(this.props.lightsaber.id)}>Give Back</button>
 
                 <div className='give-grievous'>
-                    <button className='grievous-button' onClick={() => this.props.removeFn(this.props.lightsaber.id)}>Give one to Grievous</button>
+                    <button className='grievous-button' onClick={() => {this.props.removeFn(this.props.lightsaber.id); this.handleAlert()}}>Give one to Grievous</button>
                 </div>
             </div>
         )
