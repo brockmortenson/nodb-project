@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Lightsaber 1",
+        "color": "Red",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/518dsHEcMtL._AC_SX425_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lightsaber 2",
+        "color": "Blue",
+        "img": "https://i.etsystatic.com/14206875/d/il/ee5851/2857683370/il_340x270.2857683370_o82z.jpg?version=0"
+    },
+    {
+        "id": 3,
+        "name":"Lightsaber 3",
+        "color": "Green",
+        "img": "https://sulphurcityfoundry.co.nz/wp-content/uploads/2019/10/saberforge-acolyte-STD-450x450.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Lightsaber 4",
+        "color": "Yellow",
+        "img": "https://i.ebayimg.com/images/g/1UoAAOSw7qFe~Q5p/s-l300.jpg"
+    },
+    {
+        "id": 5,
+        "name":"Lightsaber 5",
+        "color": "Purple",
+        "img": "https://i.ebayimg.com/images/g/~uAAAOSwC4BeoI7r/s-l300.jpg"
+    },
+    {
+        "id": 6,
+        "name":"Lightsaber 6",
+        "color": "Orange",
+        "img": "https://i.etsystatic.com/14509784/r/il/9abace/1255072068/il_570xN.1255072068_bh2f.jpg"
+    }
+]

@@ -2,37 +2,114 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.header {
+  height: 5vh;
+  width: 100%;
+  position: absolute;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  display: flex;
+  background-color: rgb(122, 118, 118);
 }
 
-.App-link {
-  color: #61dafb;
+.header-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lightsaber-flex {
+  height: 82vh;
+  width: 70vw;
+  display: flex;
+  position: absolute;
+  top:9vh;
+  left: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.collection-header {
+  height: 82vh;
+  width: 550px;
+  display: flex;
+  position: absolute;
+  top: 9vh;
+  right: 0px;
+  border-left: 1px solid black;
+  background-color: white;
+}
+
+.collection-header-text {
+  height: 5vh;
+  width: 500px;
+  position: relative;
+  top: -22px;
+  left: 20px;
+  background-color: rgb(122, 118, 118);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.collection-container {
+  height: 684px;
+  width: 500px;
+  position: relative;
+  top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: scroll;
+  /* height: 75vh;
+  width: 800px;
+  position: relative;
+  top: 5vh;
+  right: 30px;
+  overflow: scroll; */
+}
+
+.images {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 10px;
+}
+
+.steal-button {
+  margin: 10px;
+}
+
+.name-button {
+  display: flex;
+  justify-content: center;
+}
+
+.give-grievous {
+  height: 30px;
+  width: 483px;
+  position: fixed;
+  bottom: 86px;
+  right: 47px;
+  background-color: white;
+}
+
+.grievous-button {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.color-input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.give-back {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edit-color {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.added-img {
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
 }
